@@ -1,0 +1,32 @@
+
+
+.header{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header-links-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-links{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    margin-left: 48px;
+}
+
+.header-button{
+    background-color: #29B24E;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 13px 26px;
+    border-radius: 12px;
+    display: flex;
+}
+

@@ -1,4 +1,7 @@
-
+html{
+    background-color:  #F2F2F2;
+    ;
+}
 
 .header{
     display: flex;
@@ -12,6 +15,10 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.header-image{
+    margin-left: -4%;
 }
 
 .header-links{
@@ -30,3 +37,84 @@
     display: flex;
 }
 
+.header-button-div{
+    margin-right: -4%;
+}
+
+.questions{
+    background-color: #F8F8F8;
+    box-shadow: 0px 4px 25px 0px #C2C2C24F;
+    justify-content: start;
+    height: 610px;
+    max-width: 22%;
+    border-radius: 24px;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.location{
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 20px;
+    position: absolute;
+}
+
+.question-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.question-1 select{
+    padding: 3% 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+    border-color: rgba(13, 156, 164, 0.21);
+}
+
+.question-1 option{
+    margin-left: 10px;
+}
+
+.property{
+    margin-left: 1.5%;
+    margin-top: 1%;
+    font-size: 20px;
+    position: absolute;
+}
+
+.property-inputs{
+    margin-top: 15%;
+    margin-left: 6%;
+    font-size: 14px;
+    accent-color: #29B24E;
+}
+
+.property-inputs div{
+    margin-top: 1.5%;
+}
+
+.property-input-numbers{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.big-picture{
+    display: flex;
+    margin-left: 30%;
+    margin-top: -610px;
+    position: relative;
+}
+
+.big-picture img{
+    width: 89%;    
+}
+
+.photo-title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    color: rgba(0, 0, 0, 0.8);
+}

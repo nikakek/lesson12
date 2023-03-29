@@ -54,7 +54,7 @@ html{
 .location{
     margin-left: 1.5%;
     margin-top: 1%;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
 }
 
@@ -79,14 +79,14 @@ html{
 .property{
     margin-left: 1.5%;
     margin-top: 1%;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
 }
 
 .property-inputs{
     margin-top: 15%;
     margin-left: 6%;
-    font-size: 14px;
+    font-size: 12px;
     accent-color: #29B24E;
 }
 
@@ -110,36 +110,36 @@ html{
 }
 
 .photo-title{
-    position: fixed;
+    position: absolute;
     color: rgba(0, 0, 0, 0.8);
-    font-size: 48px;
+    font-size: 45px;
     text-align: center;
     transform: translate(-50%, -50%);
-    left: 61%;
-    top: 24%;
+    left: 45%;
+    top: 10%;
     white-space: nowrap;
 }
 
 .photo-title-2{
-    position: fixed;
+    position: absolute;
     color: rgba(0, 0, 0, 0.8);
     font-size: 16px;
     text-align: center;
     transform: translate(-50%, -50%);
-    left: 61%;
-    top: 30%;
+    left: 45%;
+    top: 19%;
     white-space: nowrap; 
     opacity: 0.8;
 }
 
 .search-box{
-    position: fixed;
+    position: absolute;
     color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     text-align: center;
     transform: translate(-50%, -50%);
-    left: 61%;
-    top: 37%;
+    left: 45%;
+    top: 29%;
     white-space: nowrap;
     border: 1px solid;
     padding: 10px;

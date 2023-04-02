@@ -101,17 +101,17 @@ html body{
 
 .big-photo{
     position: relative;
+    margin-top: 50px;
+    margin-left: 2.5%;
 }
 
 .big-photo img{
-    width: 60%;
+    width: 89%;
     
 }
 
 .first-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .photo-title{
@@ -120,8 +120,9 @@ html body{
     font-size: 45px;
     text-align: center;
     transform: translate(-50%, -50%);
-
     white-space: nowrap;
+    left: 45%;
+    top: 60px;
 }
 
 .photo-title-2{
@@ -130,8 +131,8 @@ html body{
     font-size: 16px;
     text-align: center;
     transform: translate(-50%, -50%);
-    left: 1200px;
-    top: 19%;
+    left: 45%;
+    top: 115px;
     white-space: nowrap; 
     opacity: 0.8;
 }
@@ -143,17 +144,13 @@ html body{
     text-align: center;
     transform: translate(-50%, -50%);
     left: 45%;
-    top: 29%;
+    top: 175px;
     white-space: nowrap;
     border: 1px solid;
     padding: 10px;
     width: 230px;
     border-radius: 10px;
 }
-
-
-
-
 
 .photos-section{
     margin-top: 90px;
@@ -269,4 +266,159 @@ footer{
 
 .twitter{
     margin-right: 0px !important;
+}
+
+.photos-section-2{
+    margin-top: 20px;
+}
+
+
+
+.apartment-yatch{
+    display: flex;
+    width: 87%; 
+    margin-top: 58px;
+}
+
+.apartment-yatch img{
+    display: flex;
+    width: 97%;
+
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+}
+
+.info-header-section{
+    background: #F8F8F8;
+    box-shadow: 0px 4px 18px rgba(194, 194, 194, 0.3);
+    border-radius: 24px;
+    width: 65%;
+}
+
+.info-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vip-top h4{
+    font-size: 12px;
+    padding: 5px 12px;
+    background-color: #29B24E;
+    border-radius: 20px;
+    color:#FFFFFF;
+    margin-top: 45px;
+}
+
+.info-header-2{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 35px;
+}
+
+.info-header-3{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 35px;
+}
+
+.apartment-info p{
+    color: #000000;
+    opacity: 0.9;
+    font-size: 22px;
+    margin-left: 12%;
+    margin-top: 10px;
+}
+
+.apartment-info2{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 14px;
+    margin-left: 12%;
+    margin-top: 12px;
+}
+
+.apartment-info3{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 26px;
+    color: #000000;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.apartment-info4{
+    margin-top: 35px;
+    margin-left: 8%;
+}
+
+.apartment-info4 span{
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+.apartment-info5{
+    margin-left: 12%;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.apartment-info5-opacity{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.apartment-info5-size{
+    font-size: 14px;
+    margin-top: -4px;
+}
+
+.apartment-info6-p{
+    color: #000000;
+    font-size: 14px;
+    width: 78%;
+    margin-top: -4px;
+}
+
+.apartment-info6{
+    margin-top: 25px;
+    margin-left: 7%;
+}
+
+
+.apartment-infos{
+    display: flex;
+}
+
+.apartments-price{
+    color: #29B24E;
+    font-size: 36px;
+    
+}
+
+.buildings-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.sent-message{
+    font-size: 14px;
+    color: #29B24E;
+    padding: 13px 23px;
+    border: none;
+    outline: none;
+    border: 1.3px solid #29B24E;
+    border-radius: 12px;
+    
+}
+
+.call-button{
+    background: #29B24E;
+    border-radius: 12px;
+    padding: 13px 26px;
+    color: #F8F8F8;
 }
